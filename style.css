@@ -1,0 +1,45 @@
+*{
+    background-color: midnightblue;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    background-color: aqua;
+    height: 100vh;
+}
+.fondo {
+    background-color: blueviolet;
+}
+#parrafo{
+    font-size: 50px;
+}
+[href]{text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+[href="http://sofiaplus.com"]{
+    color: springgreen;
+}
+input{
+    height: 60px;
+    width: 100%;
+}
+[type="text"]{
+   background-color: aquamarine;
+   color: black;
+}
+[type="email"]{
+    background-color: rgb(127, 138, 255);
+    color: black;
+ }
+ [type="number"]{
+    background-color: rgb(255, 127, 212);
+    color: black;
+ }
+ [href^="https"]{
+    color: darkorange;
+}
+[href$="org"]{
+    color: lemonchiffon;
+}
